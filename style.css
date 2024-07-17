@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: none;
+}
+
+body{
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+}
+
+nav a{
+    color: grey;
+    font-size: 16px;
+}
+
+nav a:hover{
+    color: red;
+
+}
+
+header > a{
+    color: black;
+    font-size: 16px;
+    border: 1px solid red;
+    padding: 7px 15px;
+    border-radius: 7%;
+    transition: 1s;
+} 
+
+header > a:hover{
+    background-color: red;
+    color: white;
+
+}
+
+main{
+    width: 100%;
+    height: fit-content;
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url("banner.jpg");
+    background-size:cover;
+    background-position: center center;
+}
+.Update{
+    width: 100;
+    height: fit-content;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 35px;
+}
+
+.Update h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.Update div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Update div input{
+    width: 45%;
+    padding: 10px 20px;
+    font-size: 18px;
+    outline: none;
+}
+
+.Update div button{
+    width: fit-content;
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 1s;
+}
+.Update button:hover{
+    background-color:black ;
+    border-color: black;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+span{
+    display: flex;
+    gap: 40px;
+}
+
+span a image{
+    transition: 0.5;
+}
+
+span a:hover img{
+    transform: scale(1.3);
+    filter: grayscale(1);
+}
